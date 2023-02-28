@@ -1,1 +1,10 @@
 
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+
+        hashmap = []
+        i = 0
+
+        for i in range(prices):
+            if i not in hashmap[]:
+                
