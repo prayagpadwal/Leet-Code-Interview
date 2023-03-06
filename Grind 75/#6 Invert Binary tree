@@ -15,6 +15,6 @@ class Solution:
         root.right = temp               #Swapping left with right and right with left
 
         self.invertTree(root.left)       
-        self.invertTree(root.right)
+        self.invertTree(root.right)         #inverting
         return root
     
